@@ -69,7 +69,7 @@ const Project = () => {
               {displays1.map((display1) =>
                 display1.person.image !== null ? (
                   <li>
-                    <img src={display1.person.image.medium} />
+                    <img src={display1.person.image.medium} alt ="NA" />
                     <h4>{display1.person.name}</h4>
                     <h7>Birthday : {display1.person.birthday}</h7>
                   </li>
@@ -85,7 +85,7 @@ const Project = () => {
               {displays.map((display) =>
                 display.show.image !== null ? (
                   <li>
-                    <img src={display.show.image.medium} />
+                    <img src={display.show.image.medium} alt ="NA" />
                     <h4>{display.show.name}</h4>
                     <h7>Geners : {display.show.genres}</h7>
                   </li>
